@@ -12,9 +12,9 @@ import Register from "./views/register";
 const appCfg = {
     routes:[
         {navItem:true, exact:true, path:"/",name:"Home",view:<Home/>},
-        {navItem:true, exact:true, path:"/about",name:"About",view:<About/>},
-        {navItem:true, exact:true, path:"/location",name:"Location",view:<Location/>},
         {navItem:true, exact:true, path:"/menu",name:"Menu",view:<Menu/>},
+        {navItem:true, exact:true, path:"/location",name:"Location",view:<Location/>},
+        {navItem:true, exact:true, path:"/about",name:"About",view:<About/>},
         {navItem:true, exact:true, path:"/contact",name:"Contact",view:<Contact/>},
         {navItem:true, exact:true, path:"/login",name:<span className="fa fa-user-circle"></span>,view:<Login backLink={{name:" Register now!",href:"/register"}}/>}, 
         {navItem:false, exact:true, path:"/comingsoon",name:"Comingsoon",view:<Comingsoon/>},
