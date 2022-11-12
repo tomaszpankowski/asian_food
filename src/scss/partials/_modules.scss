@@ -1,6 +1,27 @@
 @include aoa-bg-series($bg__init,$classes_init);
 
+.about{
+    &-s1{
+        background-position-x: 68%!important;
+    }
+    &-s2{
+        background-position-x: 35%!important;
+    }
+}
+.index{
+    &-s1{
+        background-position-x: 68%!important;
+    }
+}
+.location{
+    &-s1{
+        background-position-x: 48%!important;
+    }
+}
 .menu{
+    &-s1{
+        background-position-x: 60%!important;
+    }
     &-s3{
         background-color: #666!important;
         background-blend-mode: multiply!important;
